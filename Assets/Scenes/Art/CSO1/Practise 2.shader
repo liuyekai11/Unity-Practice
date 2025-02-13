@@ -9,9 +9,11 @@ Shader "Practise2"
 		//_Color("Color",Color) = (0.5,0.5,0.5,0.5)
 		_Maintex("Texture",2D) = "White"{}
 		[Enum(UnityEngine.Rendering.CullMode)]_CullMode ("CullMode", float) = 2
+		_RenderQueue("Render Queue", Float) = 2000
 	}
 	SubShader
 	{
+		Tags { "Queue"="[_RenderQueue]" }
 		Pass
 		{
 			Cull [_CullMode]
