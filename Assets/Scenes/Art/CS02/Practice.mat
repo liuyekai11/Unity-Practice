@@ -37,15 +37,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _RimTntensity: 7.95
-    - _SmoothMax: 2
+    - _RimTntensity: 21.19
+    - _SmoothMax: 2.35
     - _SmoothMin: 0
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0, b: 0, a: 0}
     - _Color3: {r: 1, g: 1, b: 1, a: 0}
-    - _ColorN: {r: 0.051886797, g: 0.619472, b: 1, a: 0}
-    - _ColorW: {r: 0.7924528, g: 0.3999644, b: 0.3999644, a: 0}
-    - _Speed: {r: 0, g: 0.2, b: 0, a: 0}
+    - _ColorN: {r: 0, g: 0.5999999, b: 1, a: 0}
+    - _ColorW: {r: 0.5377358, g: 0.21560162, b: 0.21560162, a: 1}
+    - _Speed: {r: 0, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
