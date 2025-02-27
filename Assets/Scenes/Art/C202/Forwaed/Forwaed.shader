@@ -6,6 +6,7 @@ Shader "Unlit/Forward"
         _AOMap ("AOMap",2D) = "white"{}
         _SpecMask("SpecMask",2D) = "white"{}
         _NormalMap("NormalMap",2D) = "white"{}
+        _NormalIntensity ("NormalIntensity",Range(0,5)) = 1.0
         _Shininess ("Shininess",Range(0.01,100)) = 1.0 
         _SpecIntensity("SpecIntensity",Range(0.01,5)) = 1.0
         _AmbientColor("AmbientColor",Color) = (0,0,0,0)
@@ -49,11 +50,13 @@ Shader "Unlit/Forward"
             sampler2D _AOMap;
             sampler2D _SpecMask;
             sampler2D _NormalMap;
+            float _NormalIntensity;
             float4 _MainTex_ST;
             float3 _LightColor0;
             float _Shininess;
             float4 _AmbientColor;
             float _SpecIntensity;
+
             
 
             v2f vert (appdata v)
@@ -80,13 +83,15 @@ Shader "Unlit/Forward"
                 float3 normal_dir = normalize(i.normal_dir);
                 float3 tangent_dir = normalize(i.tangent_dir);
                 float3 binormal_dir = normalize(i.binormal_dir);
+                normal_dir = normalize(tangent_dir * normal_data.x * _NormalIntensity + binormal_dir * normal_data.y * _NormalIntensity + normal_dir * normal_data.z);
 
                 float3 view_dir = normalize(_WorldSpaceCameraPos.xyz - i.pos_world);
                 float3 light_dir = normalize(_WorldSpaceLightPos0.xyz);
+
                 float NdotL = dot(normal_dir,light_dir);
                 float3 diffuse_color = max(0.0,NdotL) * _LightColor0.xyz * base_color.xyz;
 
-                normal_dir = normalize(tangent_dir * normal_data.x + binormal_dir * normal_data.y + normal_dir * normal_data.z);
+
 
                 float3 reflect_dir = reflect(-light_dir,normal_dir);
                 float3 RdotV = dot(reflect_dir,view_dir);

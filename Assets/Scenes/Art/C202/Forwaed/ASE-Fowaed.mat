@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ASE_Matcap
-  m_Shader: {fileID: 4800000, guid: 9c229e7732b25be4ab5dd070b6575189, type: 3}
+  m_Name: ASE-Fowaed
+  m_Shader: {fileID: 4800000, guid: bbba303e798cb1d4684a96e3dc45a70e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -24,27 +24,27 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Diffuse:
-        m_Texture: {fileID: 2800000, guid: dece56f96937a38409c05ec12d763248, type: 3}
+        m_Texture: {fileID: 2800000, guid: f2936df876c8b4f449f921f3875882f1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Matcap:
-        m_Texture: {fileID: 2800000, guid: a8f3ce92e0cae2340828d272f5ed6854, type: 3}
+    - _Mapcap:
+        m_Texture: {fileID: 2800000, guid: 25032a54c6c442a4cacf22666413a1da, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Matcapadd:
+    - _Mapcapadd:
         m_Texture: {fileID: 2800000, guid: 7b6c994ca124f7844933ff29a828e014, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: bcace47d828d6584ca2e497db46da532, type: 3}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 34ddbd1f7f4b083429b383fe1e2de587, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _RampTex:
-        m_Texture: {fileID: 2800000, guid: d41989414fad7d9429737d617855f3f0, type: 3}
+    - _Spection:
+        m_Texture: {fileID: 2800000, guid: ccd83ef995b3a354db9d313fe0f17535, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: 63f4deeba79a05045a23bd4efde60741, type: 3}
+        m_Texture: {fileID: 2800000, guid: 34ddbd1f7f4b083429b383fe1e2de587, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -53,8 +53,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _MactapaddIntensitya: 0.53
-    - _MatcapIntensity: 15.96
+    - _Float0: 2.8
+    - _Float1: 0.1
+    - _Float3: 10
+    - _MapcapIntensity: 2.06
+    - _MapcapaddIntensity: 1.17
+    - _Power: 0
+    - _ReflectMax: 1.75
+    - _ReflectMin: 1.5
+    - _Smothmax: 1.24
+    - _Smothmin: 0.99
     - __dirty: 0
-    m_Colors: []
+    - _rim: 3
+    m_Colors:
+    - _Color0: {r: 1, g: 0.7877358, b: 0.7877358, a: 0}
+    - _RefColor: {r: 1, g: 0, b: 0, a: 0}
+    - _Vector0: {r: 3.8, g: 3.78, b: -0.55, a: 0.87}
+    - _Vector1: {r: 1.86, g: 1.83, b: 0.69, a: 0}
   m_BuildTextureStacks: []
