@@ -23,20 +23,48 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AmbientColor:
+        m_Texture: {fileID: 2800000, guid: ccd83ef995b3a354db9d313fe0f17535, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AmbientTex:
+        m_Texture: {fileID: 2800000, guid: 8bb58c6470a04814bbd31364a7155093, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseTex:
+        m_Texture: {fileID: 2800000, guid: 4e4fe8c8554348647a4741b35af0662b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Diffuse:
         m_Texture: {fileID: 2800000, guid: f2936df876c8b4f449f921f3875882f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlakesTex:
+        m_Texture: {fileID: 2800000, guid: 29bba6a45034707428f2025fee9ecbd4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mapcap:
         m_Texture: {fileID: 2800000, guid: 25032a54c6c442a4cacf22666413a1da, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MapcapMask:
+        m_Texture: {fileID: 2800000, guid: 80231b646ef3fd34384e8d6f528bdfcb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Mapcapadd:
         m_Texture: {fileID: 2800000, guid: 7b6c994ca124f7844933ff29a828e014, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Matcap:
+        m_Texture: {fileID: 2800000, guid: 7b6c994ca124f7844933ff29a828e014, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalTex:
-        m_Texture: {fileID: 2800000, guid: 34ddbd1f7f4b083429b383fe1e2de587, type: 3}
+        m_Texture: {fileID: 2800000, guid: a46cc0d3830ff9b4f8f687e32c6386b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectTex:
+        m_Texture: {fileID: 2800000, guid: 80231b646ef3fd34384e8d6f528bdfcb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Spection:
@@ -53,21 +81,41 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BasePower: 1.1
+    - _Bisa: 0
+    - _EdgeLength: 2
+    - _FlakesIntenSity: 0.16
     - _Float0: 2.8
     - _Float1: 0.1
     - _Float3: 10
-    - _MapcapIntensity: 2.06
+    - _MapcapIntensity: 0.5
     - _MapcapaddIntensity: 1.17
-    - _Power: 0
-    - _ReflectMax: 1.75
-    - _ReflectMin: 1.5
+    - _NormalIntensity: 1
+    - _Power: 26.2
+    - _ReflectMax: 0.95
+    - _ReflectMin: 0.9
+    - _ReflectPower: 9
+    - _ReflectPower2: 7
+    - _Scale: 180.46
     - _Smothmax: 1.24
     - _Smothmin: 0.99
     - __dirty: 0
     - _rim: 3
+    - _x: 33
+    - _y: 45.8
     m_Colors:
-    - _Color0: {r: 1, g: 0.7877358, b: 0.7877358, a: 0}
+    - _AmbientColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 0.9764151, b: 0.9764151, a: 0}
+    - _BaseColor2: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0}
+    - _BaseColorpoint: {r: -1, g: -1, b: -1, a: 0}
+    - _Color0: {r: 1, g: 1, b: 1, a: 0}
+    - _FlakesColor: {r: 1, g: 1, b: 1, a: 0}
+    - _MatcapColor: {r: 0, g: 0, b: 0, a: 0}
     - _RefColor: {r: 1, g: 0, b: 0, a: 0}
-    - _Vector0: {r: 3.8, g: 3.78, b: -0.55, a: 0.87}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ReflectColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _UV: {r: 1, g: 1, b: 0, a: 0}
+    - _Vector0: {r: -1, g: -1, b: 0, a: 0}
     - _Vector1: {r: 1.86, g: 1.83, b: 0.69, a: 0}
+    - _Vector2: {r: -1, g: -1, b: -1, a: 0}
   m_BuildTextureStacks: []
