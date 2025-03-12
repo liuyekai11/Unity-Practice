@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Unlit_CubeMap 1
-  m_Shader: {fileID: 4800000, guid: 015a9ace97a08564b8761a91632b7235, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7ff8e244642ba544d997de352124fc5e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,11 +23,33 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _CubeMap:
+    - _AOMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _AoMap:
+        m_Texture: {fileID: 2800000, guid: 69ebb4a72b40d9e4a8213a59a8a5f99f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: 82c4156a11e59624fbb3691abc7e1673, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 14b87f5f3e7d09744948436e936854c6, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - _Expose: 1
+    - _NormalIndensity: 1
+    - _NormalIntensity: 1
+    - _Rotate: 0
+    m_Colors:
+    - _AoColor: {r: 1, g: 0.78858, b: 0.5424528, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

@@ -45,5 +45,5 @@ Material:
     - _NormalIndensity: 1
     - _Rotate: 0
     m_Colors:
-    - _Tint: {r: 1, g: 0.57493395, b: 0, a: 1}
+    - _Tint: {r: 1, g: 0.6696191, b: 0.5330188, a: 1}
   m_BuildTextureStacks: []
