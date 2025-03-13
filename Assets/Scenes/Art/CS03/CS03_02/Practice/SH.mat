@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit_IBL
-  m_Shader: {fileID: 4800000, guid: c8b50c0139ceac44f89b39b8b2f2849c, type: 3}
+  m_Name: SH
+  m_Shader: {fileID: 4800000, guid: a546ccbeec5ff704b89d7a7869fd31b6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CubeMap:
-        m_Texture: {fileID: 8900000, guid: d128d06c072d7a5449a7f29333270831, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -36,20 +36,28 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RoughnessMap:
-        m_Texture: {fileID: 2800000, guid: 6e11ef9437c5c9a43ab727896438964e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AOContrast: 0.43
-    - _Expose: 3
+    - _AOAdjust: 1
+    - _AOContrast: 1
+    - _Expose: 1
     - _NormalIndensity: 1
+    - _NormalIntensity: 1
     - _Rotate: 0
-    - _Roughness: 0.33
-    - _RoughnessBrightness: 0.36
-    - _RoughnessContrast: 0.78
-    - _RoughnessMax: 0.58
-    - _RoughnessMin: 0.05
+    - _RoughnessBrightness: 1
+    - _RoughnessContrast: 1
+    - _RoughnessMax: 1
+    - _RoughnessMin: 0
     m_Colors:
-    - _Tint: {r: 1, g: 0.9425759, b: 0.8349056, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - custom_SHAb: {r: 0.024797423, g: 0.079473026, b: 0.010113586, a: 0.27058387}
+    - custom_SHAg: {r: 0.016112808, g: 0.013131116, b: 0.010790998, a: 0.22288802}
+    - custom_SHAr: {r: 0.008946653, g: -0.047310386, b: 0.01058974, a: 0.23153526}
+    - custom_SHBb: {r: 0.023072198, g: 0.014372465, b: -0.005358271, a: 0.010642126}
+    - custom_SHBg: {r: 0.013626291, g: 0.013929229, b: -0.0059838276, a: 0.010500107}
+    - custom_SHBr: {r: 0.007906358, g: 0.012327563, b: -0.009030778, a: 0.0089519285}
+    - custom_SHC: {r: 0.015063562, g: 0.018150281, b: 0.016150426, a: 1}
   m_BuildTextureStacks: []
