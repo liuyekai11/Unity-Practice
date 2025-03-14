@@ -89,8 +89,8 @@ Shader "Unlit/CubeMap"
                    // binormal_dir,
                     //normal_dir 
                //);
-                normal_dir = normalize(tangent_dir * normaldata.x + binormal_dir 
-                * normaldata.y + normal_dir * normaldata.z);
+                //normal_dir = normalize(tangent_dir * normaldata.x + binormal_dir 
+                //* normaldata.y + normal_dir * normaldata.z);
 
                 half4 ao_color = tex2D(_AOMap,i.uv);
 
