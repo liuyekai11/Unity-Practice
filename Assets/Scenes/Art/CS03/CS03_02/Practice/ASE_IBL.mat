@@ -8,12 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ASE_IBL
-  m_Shader: {fileID: 4800000, guid: c8b50c0139ceac44f89b39b8b2f2849c, type: 3}
+  m_Shader: {fileID: 4800000, guid: f888e52b0b960e7419acd0d23b33ab59, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -39,17 +39,35 @@ Material:
         m_Texture: {fileID: 2800000, guid: 6e11ef9437c5c9a43ab727896438964e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AOContrast: 0.43
+    - _AOContrast: 0.37
     - _Expose: 3
+    - _Float0: 8.03
+    - _Mipmaplevel: 1.25
     - _NormalIndensity: 1
+    - _NormalScale1: 1
     - _Rotate: 0
     - _Roughness: 0.33
     - _RoughnessBrightness: 0.36
     - _RoughnessContrast: 0.78
     - _RoughnessMax: 0.58
     - _RoughnessMin: 0.05
+    - _X: 0
+    - __dirty: 0
     m_Colors:
+    - _BaseColor: {r: 1, g: 0.9411765, b: 0.8352941, a: 1}
     - _Tint: {r: 1, g: 0.9425759, b: 0.8349056, a: 1}
   m_BuildTextureStacks: []

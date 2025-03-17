@@ -47,7 +47,7 @@ Material:
     - _Rotate: 0
     - _Roughness: 0.33
     - _RoughnessBrightness: 1.4
-    - _RoughnessContrast: 0.37
+    - _RoughnessContrast: 0.4
     - _RoughnessMax: 1
     - _RoughnessMin: 0
     m_Colors:
